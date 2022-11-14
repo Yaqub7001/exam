@@ -1,0 +1,39 @@
+
+body {
+    background-image: url("https://www.almanac.com/sites/default/files/users/The%20Editors/clouds-cirrus-14465_full_width.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+.head {
+    margin-top: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content:space-between ;
+    
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding: 8px;
+}
+li:hover{
+    color: red;
+}
+h1{
+    font-size: 50px;
+    
+}
+.wel{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    
+}
